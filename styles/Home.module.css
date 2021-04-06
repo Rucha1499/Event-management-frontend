@@ -52,9 +52,13 @@
   font-size: 4rem;
 }
 
-.title,
+.title {
+  text-align: center;
+}
+
 .description {
   text-align: center;
+  color:#120E43;
 }
 
 .description {

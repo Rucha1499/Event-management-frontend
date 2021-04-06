@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/navbar'
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <title>Event Management</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Navbar/>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -20,7 +23,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://www.amazon.in/Birthday-Banner-Balloons-Curtain-Mettllic/dp/B07XDJPGJV/ref=asc_df_B07XDJPGJV/?tag=googleshopdes-21&linkCode=df0&hvadid=397007362261&hvpos=&hvnetw=g&hvrand=16420411189547482469&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9075203&hvtargid=pla-937452219328&psc=1&ext_vrnc=hi" className={styles.card}>
             <h3>Birthday Party &rarr;</h3>
             <p>Find yourself the best cakes and on point decorations to make your special day more special!</p>
           </a>
