@@ -14,7 +14,7 @@ const HomePage = () => {
       </div>
       <div className={styles.cardContainer}>
         {Data.map((eventType) => (
-          <EventCard eventName={eventType.eventName} description={eventType.description} link={eventType.link} />
+          <EventCard key={eventType.id} eventName={eventType.eventName} description={eventType.description} link={eventType.link} />
         ))}
       </div>
     </div>
