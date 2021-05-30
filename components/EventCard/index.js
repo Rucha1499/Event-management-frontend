@@ -3,7 +3,7 @@ import styles from '../EventCard/eventCard.module.css'
 
 const EventCard = ({eventName, description, link}) => {
     return (
-        <div>
+        <div className={styles.card}>
             <div className={styles.title}>
                 <Link href={link}>
                     {eventName}

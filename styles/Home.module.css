@@ -1,15 +1,31 @@
 .mainContainer {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height:auto;
+    margin:20px;
 }
 
 .mainTitle {
-
+    border: 1px solid black;
+    margin:80px 30px 10px;
+    padding:50px;
 }
 
 .description {
-
+    border: 1px solid black;
+    margin:10px;
+    padding: 30px;
 }
 
 .cardContainer {
-    
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: auto;
+    width: 80%;
+    margin:30px;
+    padding: 60px;
 }

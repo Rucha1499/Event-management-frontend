@@ -1,7 +1,15 @@
+.card {
+    border: 1px solid black;
+    margin: 20px;
+    width: 25%;
+}
+
 .title {
-    color:blueviolet;
+    border: 1px solid black;
+    margin: 15px;
 }
 
 .description {
-    color: brown;
+    border: 1px solid black;
+    margin: 5px;
 }
