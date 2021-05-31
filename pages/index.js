@@ -1,9 +1,11 @@
 import EventCard from '../components/EventCard/index';
+import Navbar from '../components/Navbar/index';
 import styles from '../styles/Home.module.css';
 import Data from '../data/eventData';
 
 const HomePage = () => (
   <div className={styles.mainContainer}>
+    <Navbar />
     <div className={styles.mainTitle}>
       Welcome to Event Management Application!
     </div>

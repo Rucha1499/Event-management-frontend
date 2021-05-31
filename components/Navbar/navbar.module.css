@@ -1,0 +1,14 @@
+.navbarContainer {
+    height: auto;
+    width: 80%;
+}
+
+.navbarContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title {
+    color: chocolate;
+}
