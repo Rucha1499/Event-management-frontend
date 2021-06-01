@@ -7,7 +7,7 @@ const HomePage = () => (
   <div className={styles.mainContainer}>
     <Navbar />
     <div className={styles.mainTitle}>
-      Welcome to Event Management Application!
+      Welcome to Event Planner!
     </div>
     <div className={styles.description}>
       We help you orangize awesome events! Explore what we have for you...
