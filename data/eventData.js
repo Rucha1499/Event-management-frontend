@@ -1,7 +1,7 @@
 const Data = [
   {
     id: 1,
-    eventName: 'Bday Party',
+    eventName: 'Birthday',
     description: 'Enjoy',
     link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
   },
@@ -13,13 +13,13 @@ const Data = [
   },
   {
     id: 3,
-    eventName: 'Reunion party',
+    eventName: 'Success Party',
     description: 'Rock',
     link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
   },
   {
     id: 4,
-    eventName: 'launch party',
+    eventName: 'Anniversary',
     description: 'Enjoy the artyy',
     link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
   },
