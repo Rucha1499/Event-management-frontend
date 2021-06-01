@@ -9,7 +9,7 @@ const Data = [
     id: 2,
     eventName: 'Reunion',
     description: 'Party hard',
-    link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
+    link: 'http://localhost:3000/reunion',
   },
   {
     id: 3,
@@ -20,7 +20,7 @@ const Data = [
   {
     id: 4,
     eventName: 'Anniversary',
-    description: 'Enjoy the artyy',
+    description: 'Enjoy the partyy',
     link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
   },
 

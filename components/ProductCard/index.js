@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './productCard.module.css';
 
 const ProductCard = ({
@@ -7,7 +8,12 @@ const ProductCard = ({
   <div className={styles.productCard}>
     <div className={styles.imageContainer}>
       <Link href={link}>
-        {img}
+        <Image
+          src={img}
+          alt="Cake"
+          width={100}
+          height={100}
+        />
       </Link>
       <div className={styles.productName}>
         {productName}
