@@ -5,7 +5,7 @@ import Data from '../data/eventData';
 
 const HomePage = () => (
   <div className={styles.mainContainer}>
-    <Navbar />
+    <Navbar appName="Event Planner" page="Home" />
     <div className={styles.mainTitle}>
       Welcome to Event Planner!
     </div>

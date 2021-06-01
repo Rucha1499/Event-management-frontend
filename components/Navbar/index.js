@@ -1,17 +1,14 @@
 // import Link from 'next/link';
 import styles from './navbar.module.css';
 
-const Navbar = () => (
+const Navbar = ({ appName, page }) => (
   <div className={styles.navbarContainer}>
     <div className={styles.navbarContent}>
       <div className={styles.title}>
-        Hello
+        {appName}
       </div>
       <div className={styles.title}>
-        Hello
-      </div>
-      <div className={styles.title}>
-        Hello
+        {page}
       </div>
     </div>
   </div>
