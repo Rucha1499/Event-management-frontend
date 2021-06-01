@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import styles from './productCard.module.css';
 
-const ProductCard = (productName, price, img, link) => (
+const ProductCard = ({
+  productName, price, img, link,
+}) => (
   <div className={styles.productCard}>
     <div className={styles.imageContainer}>
       <Link href={link}>
