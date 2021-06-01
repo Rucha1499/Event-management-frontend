@@ -10,7 +10,7 @@ const HomePage = () => (
       Welcome to Event Planner!
     </div>
     <div className={styles.description}>
-      We help you orangize awesome events! Explore what we have for you...
+      We help you organize awesome events! Explore what we have for you...
     </div>
     <div className={styles.cardContainer}>
       {Data.map((eventType) => (
