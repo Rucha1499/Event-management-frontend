@@ -7,15 +7,20 @@ const ProductCardsHolder = ({ title, data }) => (
       {title}
     </div>
     <div className={styles.cardsHolder}>
-      {data.map((product) => (
-        <ProductCard
-          key={product.id}
-          productName={product.productName}
-          price={product.price}
-          img={product.img}
-          link={product.link}
-        />
-      ))}
+      {data.map((product) => {
+        const {
+          id, productName, price, img, link,
+        } = product;
+        return (
+          <ProductCard
+            key={id}
+            productName={productName}
+            price={price}
+            img={img}
+            link={link}
+          />
+        );
+      })}
     </div>
   </div>
 

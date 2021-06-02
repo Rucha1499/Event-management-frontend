@@ -18,14 +18,12 @@ const ProductCard = ({
           {productName}
         </div>
         <div className={styles.price}>
-          Price : Rs.
+          Price: Rs.
           {' '}
           {price}
         </div>
         <div className={styles.button}>
-
           Buy now
-
         </div>
       </div>
     </Link>

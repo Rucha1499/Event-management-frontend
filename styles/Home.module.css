@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid black; */
     background-image: linear-gradient(#f4acb7,#9d8189);
     height:auto;
     /* margin:20px; */
@@ -14,8 +13,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     height:auto;
+    background-image: linear-gradient(white,#f4acb7);
     margin:20px;
 }
 
