@@ -3,7 +3,7 @@ const Data = [
     id: 1,
     eventName: 'Birthday',
     description: 'Enjoy',
-    link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
+    link: 'http://localhost:3000/birthdayParty',
   },
   {
     id: 2,
