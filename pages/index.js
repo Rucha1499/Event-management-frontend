@@ -7,7 +7,7 @@ const HomePage = () => (
   <div className={styles.mainContainer}>
     <Navbar appName="Event Planner" page="Home" />
     <div className={styles.mainTitle}>
-      Welcome to Event Planner!
+      Welcome to Event Planner!📝
     </div>
     <div className={styles.description}>
       We help you organize awesome events! Explore what we have for you...
