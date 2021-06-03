@@ -3,9 +3,9 @@ import ProductCard from '../ProductCard/index';
 
 const ProductCardsHolder = ({ title, data }) => (
   <div className={styles.mainContainer}>
-    <div className={styles.title}>
+    <h3 className={styles.title}>
       {title}
-    </div>
+    </h3>
     <div className={styles.cardsHolder}>
       {data.map((product) => {
         const {

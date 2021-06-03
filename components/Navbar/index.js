@@ -1,17 +1,19 @@
-// import Link from 'next/link';
+import Link from 'next/link';
 import styles from './navbar.module.css';
 
 const Navbar = ({ appName, page }) => (
-  <div className={styles.navbarContainer}>
+  <nav className={styles.navbarContainer}>
     <div className={styles.navbarContent}>
-      <div className={styles.title}>
-        {appName}
-      </div>
-      <div className={styles.title}>
+      <Link href="http://localhost:3000/">
+        <h3 className={styles.title}>
+          {appName}
+        </h3>
+      </Link>
+      <h3 className={styles.title}>
         {page}
-      </div>
+      </h3>
     </div>
-  </div>
+  </nav>
 );
 
 export default Navbar;

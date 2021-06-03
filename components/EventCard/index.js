@@ -5,12 +5,12 @@ const EventCard = ({ eventName, description, link }) => (
   <div className={styles.card}>
     <Link href={link}>
       <div className={styles.eventCardContent}>
-        <div className={styles.title}>
+        <h1 className={styles.title}>
           {eventName}
-        </div>
-        <div className={styles.description}>
+        </h1>
+        <p className={styles.description}>
           {description}
-        </div>
+        </p>
       </div>
     </Link>
   </div>

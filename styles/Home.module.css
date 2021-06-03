@@ -5,7 +5,6 @@
     justify-content: center;
     background-image: linear-gradient(#f4acb7,#9d8189);
     height:auto;
-    /* margin:20px; */
 }
 
 .mainContainerContent {
@@ -22,7 +21,7 @@
     font-family: monospace;
     font-size:xx-large;
     font-weight: bolder;
-    margin:40px 30px 10px;
+    margin:10px 30px 10px;
     padding:30px;
 }
 
