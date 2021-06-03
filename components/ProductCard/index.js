@@ -10,7 +10,7 @@ const ProductCard = ({
       <div className={styles.imageContainer}>
         <Image
           src={img}
-          alt="Cake"
+          alt="image"
           width={120}
           height={120}
         />
