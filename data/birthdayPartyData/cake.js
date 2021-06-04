@@ -1,4 +1,4 @@
-const CakeData = [
+const cakeData = [
   {
     id: 1,
     productName: 'Kitkat cake',
@@ -50,4 +50,4 @@ const CakeData = [
   },
 ];
 
-export default CakeData;
+export default cakeData;

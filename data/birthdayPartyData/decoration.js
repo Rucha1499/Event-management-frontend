@@ -1,4 +1,4 @@
-const DecorationData = [
+const decorationData = [
   {
     id: 1,
     productName: 'decoration',
@@ -50,4 +50,4 @@ const DecorationData = [
   },
 ];
 
-export default DecorationData;
+export default decorationData;

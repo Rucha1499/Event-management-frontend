@@ -14,17 +14,17 @@ const ProductCard = ({
           width={120}
           height={120}
         />
-        <p className={styles.productName}>
+        <h1 className={styles.productName}>
           {productName}
-        </p>
+        </h1>
         <div className={styles.price}>
-          Price: Rs.
+          Price:Rs.
           {' '}
           {price}
         </div>
-        <p className={styles.button}>
+        <h1 className={styles.button}>
           Buy now
-        </p>
+        </h1>
       </div>
     </Link>
   </div>
