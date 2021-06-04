@@ -17,11 +17,11 @@ const ProductCard = ({
         <h1 className={styles.productName}>
           {productName}
         </h1>
-        <div className={styles.price}>
+        <h1 className={styles.price}>
           Price:Rs.
           {' '}
           {price}
-        </div>
+        </h1>
         <h1 className={styles.button}>
           Buy now
         </h1>
