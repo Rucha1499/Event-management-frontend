@@ -4,7 +4,7 @@ import styles from './navbar.module.css';
 const Navbar = ({ appName, page }) => (
   <nav className={styles.navbarContainer}>
     <div className={styles.navbarContent}>
-      <Link href="http://localhost:3000/">
+      <Link href="/">
         <h3 className={styles.title}>
           {appName}
         </h3>
