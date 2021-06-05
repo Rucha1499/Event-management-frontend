@@ -15,7 +15,7 @@ const Data = [
     id: 3,
     eventName: 'Success Party',
     description: 'Rock',
-    link: 'https://nextjs.org/learn/basics/navigate-between-pages/link-component',
+    link: 'http://localhost:3000/successParty',
   },
   {
     id: 4,

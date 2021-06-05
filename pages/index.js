@@ -9,7 +9,7 @@ const HomePage = () => (
     <Head>
       <title>Home page</title>
     </Head>
-    <Navbar appName="Event Planner" page="Home" />
+    <Navbar appName="Event Planner" page="" />
     <div className={styles.mainTitle}>
       Welcome to Event Planner!📝
     </div>
