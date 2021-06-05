@@ -21,7 +21,7 @@ const Data = [
     id: 4,
     eventName: 'Anniversary',
     description: 'Enjoy the partyy',
-    link: 'http://localhost:3000/anniversary',
+    link: '/anniversary',
   },
 
 ];
