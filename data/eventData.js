@@ -3,19 +3,19 @@ const Data = [
     id: 1,
     eventName: 'Birthday',
     description: 'Enjoy',
-    link: 'http://localhost:3000/birthdayParty',
+    link: '/birthdayParty',
   },
   {
     id: 2,
     eventName: 'Reunion',
     description: 'Party hard',
-    link: 'http://localhost:3000/reunion',
+    link: '/reunion',
   },
   {
     id: 3,
     eventName: 'Success Party',
     description: 'Rock',
-    link: 'http://localhost:3000/successParty',
+    link: '/successParty',
   },
   {
     id: 4,
