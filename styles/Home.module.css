@@ -14,7 +14,6 @@
     justify-content: center;
     height:auto;
     background-image: linear-gradient(white,#f4acb7);
-    margin:20px;
 }
 
 .mainTitle {
@@ -39,9 +38,9 @@
     border-radius: 10px;
     background-color: #ffffea;
     background-image: url("../public/event.jpg");
-    background-repeat: repeat;
+    background-repeat:no-repeat;
     background-size: cover;
-    height: 180px;
+    height: auto;
     width: 80%;
     margin:30px;
     padding: 60px;
