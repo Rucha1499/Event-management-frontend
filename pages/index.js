@@ -4,12 +4,12 @@ import Navbar from '../components/Navbar/index';
 import styles from '../styles/Home.module.css';
 import BASE_URL from '../constants';
 
-export async function getServerSideProps() {
+export const getServerSideProps = async () => {
   const response = await fetch(`${BASE_URL}/eventData`);
   const data = await response.json();
 
   return { props: { data } };
-}
+};
 
 const HomePage = ({ data }) => (
   <div className={styles.mainContainer}>
